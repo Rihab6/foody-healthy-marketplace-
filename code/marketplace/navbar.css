@@ -1,0 +1,44 @@
+header{
+    background-color: #FFF;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+.logo{
+  color: #57a39d;
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration:none ;
+
+}
+.logo span {
+     color: rgb(9,113,121);
+
+}
+.navbar{
+    display: flex;
+    position:fixed;
+    padding-left: 365px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: green;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 700;
+
+}
+header .navbar li a:hover{
+    color: rgb(0,153,94);
+    border-bottom: 2px solid rgb(2,156,123);
+}
+ relative 
